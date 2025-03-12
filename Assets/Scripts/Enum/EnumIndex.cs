@@ -7,6 +7,7 @@ enum Animals
     Rabbit,
     Dragon,
     Snake,
+    Pig
 }
 
 public class EnumIndex : MonoBehaviour

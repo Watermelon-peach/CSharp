@@ -1,21 +1,23 @@
 using UnityEngine;
 
-// sting(¹®ÀÚ¿­) : ¹®ÀÚ¿­ µ¥ÀÌÅÍ Çü½Ä
+
+// sting(ë¬¸ìì—´) : ë¬¸ìì—´ ë°ì´í„° í˜•ì‹
 public class StringDemo : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        //[1] ¹®ÀÚ¿­ º¯¼ö ¼±¾ğÇÏ°í ÃÊ±âÈ­
-        string name = "È«±æµ¿";
+        //[1] ë¬¸ìì—´ ë³€ìˆ˜ ì„ ì–¸í•˜ê³  ì´ˆê¸°í™”
+        string name = "í™ê¸¸ë™";
 
-        //[2] »ç¿ëÇÏ±â
-        Debug.Log($"¾È³çÇÏ¼¼¿ä {name}ÀÔ´Ï´Ù");
+        //[2] ì‚¬ìš©í•˜ê¸°
+        Debug.Log($"ì•ˆë…•í•˜ì„¸ìš” {name}ì…ë‹ˆë‹¤");
 
         string multiLine = @"
-            ¾È³çÇÏ¼¼¿ä
-            ¹İ°©½À´Ï´Ù
+            ì•ˆë…•í•˜ì„¸ìš”
+            ë°˜ê°‘ìŠµë‹ˆë‹¤
         ";
         Debug.Log(multiLine);
     }
 }
+
